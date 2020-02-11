@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+}
+i {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.ico-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: #1eafed;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.btn > a {
+    color: white;
+    font-weight: 600;
+}
+
+.header {
+    max-width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.logo {
+    margin-left: 5rem;
+    width: 50%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 70%;
+    margin-right: 5rem;
+    font-size: 14px;
+}
+
+.nav li {
+    display: inline;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url(../images/bg-violet.jpg);
+    background-size: cover;
+}
+
+.hero-pic {
+    width: 578px;
+}
+
+.hero-pic > img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+.hero-text {
+    width: 600px;
+    margin-left: 2rem;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+
+.hero-title {
+    font-size: 56px;
+}
+
+.sub-title {;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+}
+
+.resume {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+/**** SERVICE SECTION ****/
+
+.services {
+    margin-top: 31rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.box-srvcs {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 2rem;
+   
+}
+
+.srvcs-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1eafed;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 0 0 50% 50%;
+}
+
+.srvcs-item > div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    margin: 5rem auto;
+}
+
+.sec-title > div {
+    margin-bottom: 2rem;
+}
+
+/****  PRICING SECTION ****/
+
+.pricing {
+    background-color: #612570;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.price-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1eafed ;
+    margin: auto 3rem;
+    padding: 2rem;
+    width: 10rem;
+    height: 18rem;
+    border-radius: 10px;
+}
+
+.price-text, .price-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scale {
+    transform: scale(1.2);
+}
+
+/*****  TESTIMONI SECTION  *****/
+
+.testimoni {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-testi {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../bg-violet.jpg);
+    background-size: cover;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.box-testi img {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: black;
+    color: whitesmoke;
+    height: 300px;
+    margin-top: 0;
+}
+.box-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.testi {
+    margin-bottom: 50px;
+}
+
+.cta-title {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 70px;
+
+}
+
+.cta-form {
+    border-radius: 25px;
+    width: 290px;
+    height: 27px;
+}
+
+.cta-btn {
+    border-radius: 25px;
+    width: 170px;
+    height: 33px;
+}
+
+.sub-testi {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
